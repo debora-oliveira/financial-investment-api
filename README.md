@@ -22,27 +22,27 @@ O objetivo do projeto é exercitar modelagem de domínio, organização de arqui
 Organização **package-by-feature**, agrupando cada domínio da aplicação.
 
 ```
-com.debora.investment
+com.financial.investment
 
 config
 exception
 shared
 
-usuario
+user
     controller
     service
     repository
     entity
     dto
 
-investimento
+investment
     controller
     service
     repository
     entity
     dto
 
-documento
+document
     controller
     service
     repository
@@ -117,8 +117,8 @@ mvn spring-boot:run
 
 ### Estrutura inicial
 
-* [ ] Criar projeto Spring Boot
-* [ ] Configurar estrutura de pacotes
+* [X] Criar projeto Spring Boot
+* [X] Configurar estrutura de pacotes
 * [ ] Configurar conexão com banco
 
 ### Modelagem

@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.*;
 
 import java.util.*;
 
-public interface InvestimentoRepository extends JpaRepository<Investimento, Long> {
-        Optional<Investimento> findById(Long id);
+public interface TipoInvestimentoRepository extends JpaRepository<TipoInvestimento, Long> {
+        Optional<TipoInvestimento> findById(Long id);
 }
